@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Failed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0df221d-adc4-4a74-bc12-e6b22253cb94</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ac247bbe-1537-4cb4-8e5c-75ba884dbb83</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e58b4911-2d82-45ab-8b3f-50fd3880d954</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'galangswibawa@yahoo.co.id'</defaultValue>
+      <description></description>
+      <id>ac247bbe-1537-4cb4-8e5c-75ba884dbb83</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rama.1235'</defaultValue>
+      <description></description>
+      <id>e58b4911-2d82-45ab-8b3f-50fd3880d954</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

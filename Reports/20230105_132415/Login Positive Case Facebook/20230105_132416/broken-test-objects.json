@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page Login Facebook/Button Login",
+      "brokenLocator": "//button[@id\u003d\u0027u_0_b_F7\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Forgotten password?\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230105_132415/Login Positive Case Facebook/20230105_132416/Object Repository/Page Login Facebook/Button Login_neighbor.png"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Positive Case Facebook,Chrome 108.0.0.0,,,2023-01-05 13:26:35,2023-01-05 13:26:50,15.687s,PASSED
+,,,,,,,
+Test Cases/Go to Facebook,Chrome 108.0.0.0,,,2023-01-05 13:26:35,2023-01-05 13:26:39,4.394s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-05 13:26:35,2023-01-05 13:26:38,2.398s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Chrome 108.0.0.0,,,2023-01-05 13:26:38,2023-01-05 13:26:39,1.497s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2023-01-05 13:26:39,2023-01-05 13:26:39,0.151s,PASSED
+,,,,,,,
+Test Cases/Login/Login Success,Chrome 108.0.0.0,,,2023-01-05 13:26:39,2023-01-05 13:26:50,11.035s,PASSED
+"focus(findTestObject(""Page Login Facebook/Input Email""))",Chrome 108.0.0.0,,,2023-01-05 13:26:40,2023-01-05 13:26:40,0.631s,PASSED
+"click(findTestObject(""Page Login Facebook/Input Email""))",Chrome 108.0.0.0,,,2023-01-05 13:26:40,2023-01-05 13:26:41,0.491s,PASSED
+"setText(findTestObject(""Page Login Facebook/Input Email""), email)",Chrome 108.0.0.0,,,2023-01-05 13:26:41,2023-01-05 13:26:42,0.802s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-05 13:26:42,2023-01-05 13:26:45,3.033s,PASSED
+takeScreenshot(),Chrome 108.0.0.0,,,2023-01-05 13:26:45,2023-01-05 13:26:45,0.419s,PASSED
+"focus(findTestObject(""Page Login Facebook/Input Password""))",Chrome 108.0.0.0,,,2023-01-05 13:26:45,2023-01-05 13:26:45,0.372s,PASSED
+"click(findTestObject(""Page Login Facebook/Input Password""))",Chrome 108.0.0.0,,,2023-01-05 13:26:45,2023-01-05 13:26:46,0.345s,PASSED
+"setText(findTestObject(""Page Login Facebook/Input Password""), password)",Chrome 108.0.0.0,,,2023-01-05 13:26:46,2023-01-05 13:26:46,0.676s,PASSED
+delay(3),Chrome 108.0.0.0,,,2023-01-05 13:26:46,2023-01-05 13:26:49,3.012s,PASSED
+takeScreenshot(),Chrome 108.0.0.0,,,2023-01-05 13:26:49,2023-01-05 13:26:50,0.417s,PASSED
+"click(findTestObject(""Page Login Facebook/Button Login""))",Chrome 108.0.0.0,,,2023-01-05 13:26:50,2023-01-05 13:26:50,0.370s,PASSED

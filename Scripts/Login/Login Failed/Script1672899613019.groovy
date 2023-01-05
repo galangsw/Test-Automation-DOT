@@ -23,7 +23,7 @@ WebUI.click(findTestObject('Page Login Facebook/Input Email'))
 
 WebUI.setText(findTestObject('Page Login Facebook/Input Email'), email)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delaySlow)
 
 WebUI.takeScreenshot()
 
@@ -33,9 +33,15 @@ WebUI.click(findTestObject('Page Login Facebook/Input Password'))
 
 WebUI.setText(findTestObject('Page Login Facebook/Input Password'), password)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delaySlow)
 
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Page Login Facebook/Button Login'))
+
+WebUI.delay(GlobalVariable.delaySlow)
+
+WebUI.verifyElementVisible(findTestObject('Page Login Facebook/Alert Password Incorrect'))
+
+WebUI.takeScreenshot()
 

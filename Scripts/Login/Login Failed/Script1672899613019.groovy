@@ -33,6 +33,8 @@ WebUI.click(findTestObject('Page Login Facebook/Input Password'))
 
 WebUI.setText(findTestObject('Page Login Facebook/Input Password'), password)
 
+WebUI.click(findTestObject('Page Login Facebook/Show Password'))
+
 WebUI.delay(GlobalVariable.delaySlow)
 
 WebUI.takeScreenshot()

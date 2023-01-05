@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Negativce Case Facebook,Chrome 108.0.0.0,,,2023-01-05 15:50:01,2023-01-05 15:50:24,22.990s,PASSED
+,,,,,,,
+Test Cases/Go to Facebook,Chrome 108.0.0.0,,,2023-01-05 15:50:02,2023-01-05 15:50:07,4.863s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-05 15:50:02,2023-01-05 15:50:04,2.280s,PASSED
+navigateToUrl(url),Chrome 108.0.0.0,,,2023-01-05 15:50:04,2023-01-05 15:50:06,2.079s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2023-01-05 15:50:06,2023-01-05 15:50:07,0.149s,PASSED
+,,,,,,,
+Test Cases/Login/Login Failed,Chrome 108.0.0.0,,,2023-01-05 15:50:07,2023-01-05 15:50:24,17.876s,PASSED
+"focus(findTestObject(""Page Login Facebook/Input Email""))",Chrome 108.0.0.0,,,2023-01-05 15:50:07,2023-01-05 15:50:07,0.395s,PASSED
+"click(findTestObject(""Page Login Facebook/Input Email""))",Chrome 108.0.0.0,,,2023-01-05 15:50:07,2023-01-05 15:50:08,0.610s,PASSED
+"setText(findTestObject(""Page Login Facebook/Input Email""), email)",Chrome 108.0.0.0,,,2023-01-05 15:50:08,2023-01-05 15:50:09,0.794s,PASSED
+delay(delaySlow),Chrome 108.0.0.0,,,2023-01-05 15:50:09,2023-01-05 15:50:12,3.029s,PASSED
+takeScreenshot(),Chrome 108.0.0.0,,,2023-01-05 15:50:12,2023-01-05 15:50:12,0.529s,PASSED
+"focus(findTestObject(""Page Login Facebook/Input Password""))",Chrome 108.0.0.0,,,2023-01-05 15:50:12,2023-01-05 15:50:13,0.349s,PASSED
+"click(findTestObject(""Page Login Facebook/Input Password""))",Chrome 108.0.0.0,,,2023-01-05 15:50:13,2023-01-05 15:50:13,0.353s,PASSED
+"setText(findTestObject(""Page Login Facebook/Input Password""), password)",Chrome 108.0.0.0,,,2023-01-05 15:50:13,2023-01-05 15:50:14,0.867s,PASSED
+"click(findTestObject(""Page Login Facebook/Show Password""))",Chrome 108.0.0.0,,,2023-01-05 15:50:14,2023-01-05 15:50:14,0.404s,PASSED
+delay(delaySlow),Chrome 108.0.0.0,,,2023-01-05 15:50:14,2023-01-05 15:50:17,3.003s,PASSED
+takeScreenshot(),Chrome 108.0.0.0,,,2023-01-05 15:50:17,2023-01-05 15:50:18,0.392s,PASSED
+"click(findTestObject(""Page Login Facebook/Button Login""))",Chrome 108.0.0.0,,,2023-01-05 15:50:18,2023-01-05 15:50:18,0.347s,PASSED
+delay(delaySlow),Chrome 108.0.0.0,,,2023-01-05 15:50:18,2023-01-05 15:50:21,3.018s,PASSED
+"verifyElementVisible(findTestObject(""Page Login Facebook/Alert Password Incorrect""))",Chrome 108.0.0.0,,,2023-01-05 15:50:21,2023-01-05 15:50:24,2.925s,PASSED
+takeScreenshot(),Chrome 108.0.0.0,,,2023-01-05 15:50:24,2023-01-05 15:50:24,0.502s,PASSED

@@ -1,1 +1,0 @@
-Test Suites/Login Facebook/All Case Login

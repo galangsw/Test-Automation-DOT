@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Null Field</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f0b80660-6ad8-4d74-b24a-8d9f64ff7843</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>297ed7c5-1775-421b-bf44-39ab5cc95c15</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>942ee0f2-0769-41cc-bc59-27430db92e8c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'galangswibawa@yahoo.co.id'</defaultValue>
+      <description></description>
+      <id>297ed7c5-1775-421b-bf44-39ab5cc95c15</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rama.1235'</defaultValue>
+      <description></description>
+      <id>942ee0f2-0769-41cc-bc59-27430db92e8c</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
